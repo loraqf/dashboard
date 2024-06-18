@@ -18,6 +18,7 @@ Technologies Used:
 Method Documentation:
 
 CounterpartyController, ProductController, SaleController:
+
 store() 
 -	Validates data for:
   o	 counterparty (required attributes, unique bulstat, valid email) 
