@@ -21,7 +21,8 @@ CounterpartyController, ProductController, SaleController:
 
 store() 
 -	Validates data for:
-  o	 counterparty (required attributes, unique bulstat, valid email) 
+  o	 counterparty (required attributes, unique bulstat, valid email)
+ 	
   o	Product (required attribute, valid input of price)
   o	Sale (existing product & counterparty to be added, required attributes)
 -	Stores the data (if correct) in database
